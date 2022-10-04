@@ -7,7 +7,7 @@ def show_menu() -> int:
             "5. Сохранить справочник в текстовом формате\n"
             "6. Закончить работу")
     choice = int(input())
-    return
+    return choice
 
 def print_result(data: list):
     for el in data:
